@@ -317,7 +317,7 @@ void changePass() {
       }
       break;
      case '2': // Đổi thẻ RFID Master
-        oldPass = enterPass("Old password:");
+        oldPass = enterPass("password:");
         if (oldPass == defaultPassword1) { // Xác thực bằng mật khẩu 1
           lcd.clear();
           lcd.print("Scan new RFID");
